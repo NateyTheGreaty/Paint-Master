@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PaintMaster.exe" version="1.0.0.2" publicKeyToken="1556d3b41cdeb278" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icons8-Windows-8-Diy-Paint-Brush.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PaintMaster" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PaintMaster.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PaintMaster.exe" size="371200">
+      <assemblyIdentity name="PaintMaster" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>i9FcwvcquyeFIE/PiE52DrJWxqjz+TnJo88QTJPgfPA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icons8-Windows-8-Diy-Paint-Brush.ico" size="164865">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3dWd/CHnFe6WOXHKC98k4Zw+Q68Uet5vXr0vN9qLa20=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PaintMaster.exe.config" size="177">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5Cl71GbhFS9rD6YTZpYbXpMTChV4WDqqdL3eFsPgipk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PaintMaster.pdb" size="58880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SfCTeVCybMTD29wE9XkDrpyqe5UTZbcoO1bMaSqj5NM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PaintMaster.xml" size="676">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>htTZ3h9PNHkn6v3zcmkb2urvaFv0WPRG67bRVknA1QA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=BAK12OKUS\19nathanialtanner" issuerKeyHash="95e0dd87625b1a3647246f4ad98dd2eb8da121c3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>F9MVZ52q+jWHu3LBdfPQ7ja/nBwPcKQer9BtCylpTbE=</DigestValue></Reference></SignedInfo><SignatureValue>Ybx8OA6ULzMlw9tDltKna1jfgwlPOC1sqIE65O+lMzFUSN+1K4nFixJ5Nb2mSPEFCFZbIJgyCBHpIy+72MlZbx8gQ4hr4q1tPcyZ7UOGWDDTToZTyzDsDac4qDjvoSff0M6Y+TWE10ttC15PGVtP13b5JnaHtgqsk4hsZtrsQM0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0p7b/KZKHjVv/su7rLKqFhUULR0yA/337j/UbWPw2bUbU718N4Kog1cSgwh/xd3W947nydxpnXSWP0P7psx8WtNHNkMglr/h+rHqCI2ZLCT9BO7gW7Atd3lr0kSAWZdwzYlSLPIYiKDD1EIdEAXVFJgqa54eyTkW//Ao0rEZTU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b14d69290b6dd0af1ea4700f1c9cbf36eed0f375c172bb8735faaa9d6715d317" Description="" Url=""><as:assemblyIdentity name="PaintMaster.exe" version="1.0.0.2" publicKeyToken="1556d3b41cdeb278" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BAK12OKUS\19nathanialtanner</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>P4kMhS41EKFKhHCqTOTFSD+hA8QZEjMXL7G4Qr/zmbc=</DigestValue></Reference></SignedInfo><SignatureValue>S32PzGX3ieKsnhCpHodutTsFY+F0+UHdm7BupvfDkn4AEL88y1UOIqTdkOSqZZAsHfLmzF72sEkZreyNgsZ3F53zzBYb443LSDjQ5RlsNvD08faHgJymJ6osqYt6cCSAMPZxFd1beeG7v2yVi0GxeBWPwkDAy4ZmUAwnT+/BFpo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0p7b/KZKHjVv/su7rLKqFhUULR0yA/337j/UbWPw2bUbU718N4Kog1cSgwh/xd3W947nydxpnXSWP0P7psx8WtNHNkMglr/h+rHqCI2ZLCT9BO7gW7Atd3lr0kSAWZdwzYlSLPIYiKDD1EIdEAXVFJgqa54eyTkW//Ao0rEZTU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQcOPkzjqXcZFNwUCMhwLBwTANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYAQgBBAEsAMQAyAE8ASwBVAFMAXAAxADkAbgBhAHQAaABhAG4AaQBhAGwAdABhAG4AbgBlAHIwHhcNMTYxMTMwMTY0OTI5WhcNMTcxMTMwMjI0OTI5WjBBMT8wPQYDVQQDHjYAQgBBAEsAMQAyAE8ASwBVAFMAXAAxADkAbgBhAHQAaABhAG4AaQBhAGwAdABhAG4AbgBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANKe2/ymSh41b/7Lu6yyqhYVFC0dMgP99+4/1G1j8Nm1G1O9fDeCqINXEoMIf8Xd1veO58ncaZ10lj9D+6bMfFrTRzZDIJa/4fqx6giNmSwk/QTu4FuwLXd5a9JEgFmXcM2JUizyGIigw9RCHRAF1RSYKmueHsk5Fv/wKNKxGU1NAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAqWyUVXykRxM4dTTrNPYaX668cmJeK0BswqC+Ju1lSCpMlIFqJQZdVbUrJXAA8ltazVoe7dIyG7ukce1+oGABzVZdQRtG/P6KRfxLGAzeQb2QoT1CtxIGgW36YV1zEhdgAMEIuB0zmHNmME5CXBN800Oqe+wxfZHa3lHh9FiPj50=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
